@@ -1,0 +1,38 @@
+/* Responsive styles for small screens */
+@media (max-width: 767px) {
+  #wrapper {
+    padding-left: 0;
+  }
+
+  #wrapper.toggled {
+    padding-left: 0;
+  }
+
+  #sidebar-wrapper {
+    width: 0;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 0;
+  }
+
+  #page-content-wrapper {
+    padding: 15px;
+  }
+
+  #wrapper.toggled #page-content-wrapper {
+    margin-right: 0;
+  }
+}
+
+/* Larger screens */
+@media (min-width: 768px) {
+  /* styles.css */
+.withdraw-buttons {
+    margin-left: 4%;
+  }
+  
+  .withdraw-buttons button {
+    margin-left: 4%;
+  }
+}

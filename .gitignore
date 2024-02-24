@@ -1,0 +1,11 @@
+/frontend/node-modules
+/frontend/build
+/frontend/coverage
+
+/backend/target
+/backend/nbproject/private/
+/backend/nbbuild/
+/backend/dist/
+/backend/nbdist/
+/backend/.nb-gradle/
+/backend/build/
